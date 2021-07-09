@@ -15,16 +15,19 @@ public class Player {
         this.setWickets(wickets);
     }
 
+    //batting average
     public double battingAvg() {
         double battingAvg = getRuns() / 15.0;
         return battingAvg;
     }
 
+    // bowling average
     public double bowlingAvg(){
         double bowlingAvg = getWickets()/15.0;
         return bowlingAvg;
     }
 
+    //get player details method
     public void getPlayerDetails(){
         System.out.println("Name: "+ getName());
         System.out.println("Age: "+ getAge());
@@ -34,7 +37,7 @@ public class Player {
     }
 
 
-    //getters and setters
+    //random getters and setters
     public void setName(String name) {
         this.name = name;
     }
