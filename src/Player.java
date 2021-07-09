@@ -36,7 +36,6 @@ public class Player {
         System.out.println("No. of runs: "+ getRuns());
     }
 
-
     //random getters and setters
     public void setName(String name) {
         this.name = name;
